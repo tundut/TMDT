@@ -9,11 +9,12 @@ function renderProducts(products) {
       <div class="pro" data-category="${product.category}" onclick="window.location.href='sproduct.html?id=${product.id}';">
         <img src="${product.image}" alt="">
         <div class="des">
-          <span>Apple</span>
           <h5>${product.name}</h5>
           <div class="star">
-            <i class="fas fa-star"></i><i class="fas fa-star"></i>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
           <h4>$${product.price}</h4>
